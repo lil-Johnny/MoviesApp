@@ -1,16 +1,61 @@
-# React + Vite
+🎬 Movie Discovery Web App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A responsive movie discovery application built with React that allows users to explore popular movies, view detailed information, and search for films in real time. The app consumes a public movie API to dynamically fetch and display up-to-date movie data with a clean and intuitive user interface.
 
-Currently, two official plugins are available:
+This project was developed to strengthen my understanding of React fundamentals, API integration, and modern front-end development practices.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+🚀 Features
 
-## React Compiler
+Browse popular movies with dynamic data loading
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+Search movies by title in real time
 
-## Expanding the ESLint configuration
+View detailed movie information including:
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Poster
+
+Title
+
+Rating
+
+Release date
+
+Overview/description
+
+Responsive design for desktop and mobile devices
+
+Clean UI with reusable React components
+
+Note: The trending movies feature shown in the reference tutorial was intentionally excluded, while all other core functionalities were implemented independently.
+
+🛠️ Tech Stack
+
+React
+
+JavaScript (ES6+)
+
+HTML5
+
+CSS3
+
+TailwindCSS
+
+Public Movie API
+
+Git & GitHub
+
+GitHub Pages (for deployment)
+
+🧠 What I Learned
+
+Building reusable components in React
+
+Managing component state and props
+
+Fetching and handling asynchronous API data
+
+Conditional rendering and UI updates
+
+Structuring a scalable React project
+
+Deploying a React application using GitHub Pages
